@@ -1,0 +1,98 @@
+.shadow-inner-a {
+  box-shadow: inset 3px 3px 3px #212225, inset -3px -3px 3px #3e3d3d;
+}
+.shadow-outter-a {
+  box-shadow: 3px 3px 3px #212225, -3px -3px 3px #3e3d3d
+}
+.shadow {
+  box-shadow: 3px 3px 3px #212225;
+}
+.menuWrapper {
+  float: left;
+  width: 80px;
+  height: 100vh;
+}
+.contentWrapper {
+  color: white;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.list-group {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  margin-left: 12px;
+  margin-top: 30px;
+  box-shadow: 3px 3px 3px #212225, -3px -3px 3px #3e3d3d;
+  transition : 0.5s;
+  text-align: center;
+  cursor: pointer;
+}
+
+.list-group:hover {
+  box-shadow: inset 3px 3px 3px #212225, inset -3px -3px 3px #3e3d3d;
+}
+
+.list-group.active {
+  box-shadow: inset 3px 3px 3px #212225, inset -3px -3px 3px #3e3d3d;
+}
+
+.listIcon {
+  padding-top: 15px;
+  transition: 0.3s;
+  z-index: 0;
+  font-size: 20px;
+  font-weight: 200;
+}
+.listName {
+  margin-top: -25px;
+  color: #2d2d2d;
+  transition: 0.3s;
+}
+
+/* .list-group hover event */
+.list-group:hover > .listIcon {
+  padding-top: 3px;
+}
+.list-group:hover > .listName{
+  margin-top: 0px;
+}
+.list-group:hover > .listName{
+  color: #61dafb;
+}
+
+/* color effect */
+.list-group {
+  color: #61dafb;
+}
+.list-group .green {
+  color: green;
+}
+.list-group:hover > .listName .green{
+  color: green;
+}
+.logo-text {
+  text-align: center;
+}
+.logo-text h1 {
+  color: transparent;
+  -webkit-text-stroke: 1px #61dafb;
+  margin-top: 30px;
+  font-size: 50px;
+  letter-spacing: 1px;
+  font-weight: 800;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.logo-text div {
+  background-color: #2D2D2D;
+  height: 5px;
+  margin-top: -10px;
+  margin-left: 20px;
+  width: 38px;
+  transition: 0.3s;
+}
+.logo-text:hover > div {
+  background-color: #61dafb;
+}

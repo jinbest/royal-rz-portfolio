@@ -1,0 +1,220 @@
+/* Home CSS */
+.home-info {
+  padding-top: 200px;
+  padding-left:  10%;
+  width: max-content;
+  margin: auto;
+}
+.about-title {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  margin: auto;
+  font-size: 36px;
+  width: max-content;
+  font-weight: 700;
+}
+.col-12 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.about-title-button {
+  position: relative;
+  top:-10px;
+  text-align: center;
+  color: #f1a940;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 12px 28px;
+}
+.box {
+    border-radius: 10px;
+    /* transform: translateX(-50%); */
+    -webkit-box-shadow: inset 3px 3px 3px #212225, inset -3px -3px 3px #3e3d3d;
+    -mz-box-shadow: inset 3px 3px 3px #212225, inset -3px -3px 3px #3e3d3d;
+    box-shadow: inset 3px 3px 3px #212225, inset -3px -3px 3px #3e3d3d;
+}
+.main-btn {
+    width:max-content;
+    margin-top: 40px;
+    background-color: #2d2d2f;
+    position: relative;
+    display: inline-block;
+    min-width: 160px;
+    color: #f1a940;
+    padding: 16px 0;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    /* background: transparent; */
+    border: 2px solid #272626;
+    border-right-color: #272626;
+    border-bottom-color: #272626;
+    border-radius: 16px;
+    outline: none;
+    overflow: hidden;
+    -webkit-box-shadow: inset 5px 5px 5px #212225, inset -3px -3px 3px #3e3d3d;
+    -mz-box-shadow: inset 5px 5px 5px #212225, inset -3px -3px 3px #3e3d3d;
+    box-shadow: inset 5px 5px 5px #212225, inset -3px -3px 3px #3e3d3d;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -ms-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+.home-right {
+  padding-top: 100px;
+  padding-right: 10%px;
+}
+.home-right img {
+  width: 100%;
+  max-width: 700px;
+  height: 700px;
+  margin-left: -10%;
+  z-index: -1;
+}
+.home-info h1{
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  font-size: 70px;
+  letter-spacing: 1px;
+  font-weight: 800;
+  margin: 30px 0 50px;
+  text-transform: capitalize;
+  width: max-content;
+}
+.home-info h3 {
+  width: max-content;
+}
+/* About CSS */
+.about-image {
+  margin-top: 60px;
+  width: 400px;
+}
+.container{
+  padding-top: 0px;
+}
+.about-description {
+  margin-top: 60px;
+}
+.service {
+  margin-top: 80px;
+}
+.cv-container {
+  text-align: center;
+  padding:30px;
+  width: 200px;
+  margin: 0 auto;
+}
+.about-description .span{
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 50%;
+  background: #2d2d2f;
+  box-shadow: inset 3px 3px 3px #212225, inset -3px -3px 3px #3e3d3d;
+  color: #61dafb;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.about-description .span label {
+  position: relative;
+  left: 50px;
+  top: -35px;
+  font-size: 18px;
+  font-weight: 550;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.education {
+  position: relative;
+  margin-top: 50px;
+  padding: 65px 25px 35px;
+  -webkit-box-shadow: inset 3px 3px 3px #212225, inset -3px -3px 3px #3e3d3d;
+  -mz-box-shadow: inset 3px 3px 3px #212225, inset -3px -3px 3px #3e3d3d;
+  box-shadow: inset 3px 3px 3px #212225, inset -3px -3px 3px #3e3d3d;
+}
+.education-icon {
+  position: absolute;
+  top: -28px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 62px;
+  height: 62px;
+  line-height: 62px;
+  text-align: center;
+  border-radius: 50%;
+  display: block;
+  background: #2d2d2f;
+  color: #61dafb;
+  font-size: 23px;
+  box-shadow: 3px 3px 3px #212225, -3px -3px 3px #3e3d3d;
+}
+.education-icon i{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 62px;
+  height: 62px;
+  line-height: 62px;
+  text-align: center;
+  border-radius: 50%;
+  display: block;
+  background: #2d2d2f;
+  color: #61dafb;
+  font-size: 23px;
+  box-shadow: inset 3px 3px 3px #212225, inset -3px -3px 3px #3e3d3d;
+}
+.contact-info {
+  box-shadow: inset 3px 3px 3px #212225, inset -3px -3px 3px #3e3d3d;
+  padding: 20px;
+}
+.contact-type {
+  
+}
+.contactlist {
+  padding: 15px;
+}
+.contactlist label {
+  font-weight: 700;
+}
+.contact-icon {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+  margin-right: 20px;
+  border-radius: 50%;
+  box-shadow: inset 3px 3px 3px #212225, inset -3px -3px 3px #3e3d3d;
+  color: #61dafb;
+}
+.contact-title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+.contact-wrapper {
+  margin-top: 50px;
+}
+.form-control {
+  background-color: #2d2d2d;
+  border: none;
+  border-radius: 0px;
+  border-bottom: 1px solid gray;
+  transition: 0.3s;
+}
+.form-control:focus {
+  background-color: #2d2d2d; 
+  border-bottom: 1px solid #61dafb;
+  border-color: none !important;
+  box-shadow: none;
+}
+.form-group:focus {
+  color: #61dafb;
+}
